@@ -1,0 +1,13 @@
+### Nombre del sitio. Se muestra en la cabecera y en el título de la ventana del navegador
+website_name="Mi página web"
+
+### Definición de los elementos del menú
+menu1_label="Home"  # Nombre de la página a la que hace referencia este elemento del menú
+menu1_link="home"  # Nombre del archivo .md que contiene el texto (sin extensión)
+menu2_label="Acerca de"
+menu2_link="acerca"
+menu3_label="Contacto"
+menu3_link="contacto"
+
+### Texto del footer (puede contener tags HTML).
+footer_text="- Hecho con Hackfun SSG -"
