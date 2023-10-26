@@ -1,3 +1,3 @@
 # Contactarme
 
-Podés escribirme por mail [acá](contacto@hackfunrosario.com).
+Podés escribirme por mail [acá](mailto:contacto@hackfunrosario.com).
