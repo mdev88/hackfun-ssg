@@ -1,6 +1,6 @@
 # Hackfun Static Site Generator
 
-Un generador de sitios estáticos minimalista.
+Un generador de sitios estáticos minimalista y hackeable para Linux que usa Markdown para generar el contenido de cada página.
 
 ## Filosofía
 
@@ -13,6 +13,15 @@ Un generador de sitios estáticos minimalista.
 - `public_html`: El sitio generado se guardará en esta carpeta.
 - `user_content/pages`: Carpeta donde se deben guardar los archivos que representan el contenido las páginas del sitio, en formato Markdown (.md)
 - `user_content/blog`: (TODO) Aquí se guardarán los archivos Markdown que representan las publicaciones del blog.
+
+## Dependencias
+
+- Bash 4+
+- [Pandoc](https://pandoc.org/)
+
+## Limitaciones
+
+- Los nombres de los archivos Markdown no deben contener espacios
 
 ## Cómo usar
 
