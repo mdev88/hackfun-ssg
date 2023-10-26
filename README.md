@@ -32,7 +32,7 @@ Un generador de sitios estáticos minimalista y hackeable para Linux que usa Mar
 ## Cómo usar
 
 1. Editar el archivo `config.txt`
-2. Editar o crear archivos markdown para el contenido en `user_content/pages`
+2. Crear archivos markdown para el contenido en `user_content/pages`. Opcionalmente usar los archivos de ejemplo ubicados en `user_content/pages.example`.
 3. Ejecutar `./generate.sh`
 4. Si no hubo errores, el sitio generado se guardará en `public_html`
 
