@@ -9,7 +9,14 @@ Un generador de sitios estáticos minimalista.
 
 ## Estructura
 
-- **core**: Archivos HTML y CSS que componen la estructura del sitio. Algo así como la plantilla base sobre la que se construirá la web.
-- **public_html**: El sitio generado se guardará en esta carpeta.
-- **user_content/pages**: Carpeta donde se deben guardar los archivos que representan el contenido las páginas del sitio, en formato Markdown (.md)
-- **user_content/blog**: (TODO) Aquí se guardarán los archivos Markdown que representan las publicaciones del blog.
+- `core`: Archivos HTML y CSS que componen la estructura del sitio. Algo así como la plantilla base sobre la que se construirá la web.
+- `public_html`: El sitio generado se guardará en esta carpeta.
+- `user_content/pages`: Carpeta donde se deben guardar los archivos que representan el contenido las páginas del sitio, en formato Markdown (.md)
+- `user_content/blog`: (TODO) Aquí se guardarán los archivos Markdown que representan las publicaciones del blog.
+
+## Cómo usar
+
+1. Editar el archivo `config.txt`
+2. Editar o crear archivos markdown para el contenido en `user_content/pages`
+3. Ejecutar `./generate.sh`
+4. Si no hubo errores, el sitio generado se guardará en `public_html`
