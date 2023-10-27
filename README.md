@@ -1,10 +1,11 @@
 # Hackfun Static Site Generator
 
-Un generador de sitios estáticos minimalista y hackeable para Linux que usa Markdown para generar el contenido de cada página.
+Un generador de sitios estáticos minimalista y hackeable para la Small Web.
 
 ## Filosofía
 
 * User lenguajes y herramientas testeados y que tengan historial de no cambiar drásticamente con el paso del tiempo.
+* Usar Markdown como lenguaje para generar el contenido.
 * El resultado debe ser una web elegante y atractiva, que puede sentirse minimalista pero no obsoleta o poco funcional.
 * La web debe ser responsive y poder visualizarse correctamente en una computadora y en un teléfono.
 * Debe alojar todos los recursos/assets, no debe contar con dependencias externas (estilos, scripts, fuentes, imágenes, etc)
